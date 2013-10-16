@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+div[data-role="header"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+div[data-role="content"] {
+    position: absolute;
+    top: 41px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+#logo
+{
+    width:100%;
+    
+}
+
+#profileimg
+{
+background-image: url("http://www.almostsavvy.com/wp-content/uploads/2011/04/profile-photo.jpg");
+width: 100px;
+height: 100px;
+float: left;
+border-radius: 73px;
+background-position: center center;
+background-size: 100% 100%;
+
+}
+
+#introtext
+{
+float: left;
+width: 100%;
+}
+
+#introtext span
+{
+font-size: 62px;
+float: left;
+margin-right: 26px;
+
+}
